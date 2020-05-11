@@ -1,5 +1,9 @@
 # Draw a Line
 
+# Link for Turtle examples to practice
+# https://michael0x2a.com/blog/turtle-examples
+#https://mahajanpoojag-7355.trinket.io/an-hour-of-python#/welcome-to-python/going-deeper-with-turtle
+
 # Step 1: Make all the "turtle" commands available to us.
 import turtle
 
