@@ -1,3 +1,7 @@
+# Link for Turtle examples to practice
+# https://michael0x2a.com/blog/turtle-examples
+#https://mahajanpoojag-7355.trinket.io/an-hour-of-python#/welcome-to-python/going-deeper-with-turtle
+
 import turtle
 
 
