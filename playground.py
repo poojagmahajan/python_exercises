@@ -12,7 +12,6 @@ def draw_circle(turtle, color, size, x, y):
     turtle.end_fill()
     turtle.pendown()
 
-
 def draw_square(turtle, color, size, x, y):
     turtle.penup()
     turtle.color(color)
