@@ -32,10 +32,11 @@ class LinkedList:
             p = self.head
             q = self.head
 
-            while p and k>0:
+            while p and k>1:    ## k is 1 becoz, p and q already point to 1st node
                 p = p.next      ## bring p , q to the pivot
                 q = q.next
-            p=q                 ## store p (q is reused instead of new variable...as  p and q are same at pivot)
+                k -=1
+            #p=q                 ## store p (q is reused instead of new variable...as  p and q are same at pivot)
 
             while q.next:     ## stop at last node if take q here ...t will stop at null
                 q = q.next
