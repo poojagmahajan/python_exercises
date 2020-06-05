@@ -34,24 +34,23 @@ class CircularLinkedList:
             if cur == self.head:
                 break
 
-    def prepend(self, data):
-        new_node = Node(data)
+    def len(self):
+        cur = self.head
+        count = 0
+        while cur:
+            count += 1
+            cur = cur.next
+            if cur == self.head:
+                break
+        return count
 
-        if not self.head:
-            new_node.next = new_node  # point to itself to make it circular
-
-        else:
-            cur = self.head
-            while cur.next != self.head:
-                cur = cur.next
-            cur.next = new_node
-            new_node.next = self.head
-            self.head = new_node  # this is diff between append and prepend...
-            # here new node is head and in append next of new node is head
 
 cllist = CircularLinkedList()
 cllist.append("C")
 cllist.append("D")
-cllist.prepend("B")
-cllist.prepend("A")
+cllist.append("B")
+cllist.append("A")
 cllist.print_list()
+print("Length is ",cllist.len())
+
+
