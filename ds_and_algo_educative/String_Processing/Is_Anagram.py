@@ -1,6 +1,6 @@
 
+## https://www.youtube.com/watch?v=Pb7pmvifBf4&list=PL5tcWHG-UPH03aqnBTkBuH5qIbhshbg_K&index=4
 ######  Solution 1 #########
-
 
 s1 = "fairy tales"
 s2 = "rail safety"
