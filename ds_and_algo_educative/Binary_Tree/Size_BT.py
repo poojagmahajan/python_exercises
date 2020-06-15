@@ -98,8 +98,6 @@ class BinaryTree(object):
             print("Traversal type " + str(traversal_type) + " not recognized.")
             return False
 
-
-
     def size_( self, node ):
         if node is None:
             return 0
